@@ -24,7 +24,7 @@
 		<!--设置开机启动-->
         <receiver
             android:enabled="true"
-            android:name="receiver.ScreenBroadcastReceiver" >
+            android:name="com.receiver.ScreenBroadcastReceiver" >
             <intent-filter >
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
 				<category android:name="android.intent.category.HOME" />

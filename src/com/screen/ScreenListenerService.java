@@ -6,7 +6,7 @@ import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.IBinder;
-import receiver.ScreenBroadcastReceiver;
+import com.receiver.ScreenBroadcastReceiver;
 
 /**
  * 禁止系统锁屏界面，为广播接收添加两个可接收的广播：屏幕亮/屏幕暗

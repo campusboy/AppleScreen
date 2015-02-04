@@ -56,7 +56,6 @@ public class LockScreenActivity extends Activity {
             finish();
         }
         try {
-            // initialize receiver
             startService(new Intent(this, ScreenListenerService.class));
             initPhoneListener();
             initImvUnlockKey();
@@ -150,6 +149,7 @@ public class LockScreenActivity extends Activity {
             super.onCallStateChanged(state, incomingNumber);
             switch (state) {
                 case TelephonyManager.CALL_STATE_RINGING:
+                    finish();
                     break;
                 case TelephonyManager.CALL_STATE_OFFHOOK:
                     finish();
