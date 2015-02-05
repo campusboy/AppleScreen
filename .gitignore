@@ -1,0 +1,16 @@
+*.class
+.idea/compiler.xml
+.idea/.name
+gen/com/screen/BuildConfig.java
+.idea/modules.xml
+.idea/misc.xml
+.idea/encodings.xml
+.idea/copyright/profiles_settings.xml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml
+.idea/workspace.xml
+AppleScreen.iml
+gen/com/screen/Manifest.java
+gen/com/screen/R.java
+out/production/AppleScreen/AppleScreen.apk
+out/production/AppleScreen/AppleScreen.unaligned.apk
