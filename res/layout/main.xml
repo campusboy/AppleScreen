@@ -4,6 +4,14 @@
 				android:layout_height="match_parent"
 				android:background="#FFA500"
 				android:orientation="horizontal">
+	<DigitalClock
+			android:layout_marginTop="@android:dimen/app_icon_size"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+
+			android:textColor="@android:color/black"
+			android:textSize="@android:dimen/app_icon_size"/>
 	<ImageView
 			android:id="@+id/imv_key"
 			android:layout_width="wrap_content"
